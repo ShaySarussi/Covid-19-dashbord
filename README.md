@@ -18,5 +18,4 @@ You will also see any lint errors in the console.
 Responsive Design
 
 ![wr](https://user-images.githubusercontent.com/43005514/100548748-2a78f800-3277-11eb-96d1-2d527cdbc181.png)
-
 ![w](https://user-images.githubusercontent.com/43005514/100548750-2baa2500-3277-11eb-88d2-4547aa52c1e2.png)
