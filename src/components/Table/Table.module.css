@@ -1,0 +1,178 @@
+.table{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+.cases {
+    border-bottom: 9px solid rgba(255, 113, 39, 1);
+
+  }
+  
+  .recovered{
+    border-bottom: 9px  solid rgba(16, 188, 16, 1);
+  }
+  
+  .deaths{
+    border-bottom: 9px  solid rgba(233, 0, 65, 1);
+  }
+  
+  .active{
+    border-bottom: 9px solid  rgba(24, 196, 211, 1);
+  
+  }
+  
+  .critical {
+    border-bottom: 9px solid rgba(125, 12, 157, 1);
+  }
+  
+  .casesPerOneMillion{
+    border-bottom: 9px solid rgba(255, 239, 55, 1);
+  }
+  
+  .deathsPerOneMillion{
+    border-bottom: 9px solid rgba(255, 92, 211, 1);
+  }
+  
+  .totalTests{
+    border-bottom: 9px solid rgb(196, 143, 117);
+  }
+  
+  .testsPerOneMillion{
+    border-bottom: 9px solid rgba(90, 0, 39, 1);
+  }
+
+  table {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    table-layout: fixed;
+  }
+  
+  table caption {
+    font-size: 1.5em;
+    margin: .5em 0 .75em;
+  }
+  
+  table tr {
+    border: 1px solid #ddd;
+
+  }
+  
+  table th{
+    padding: .999em;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+
+  table td {
+    padding: .999em;
+    background-color: white;
+    text-align: center;
+  }
+  
+  table th {
+    font-size: .85em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+
+
+  @media screen and (max-width: 800px) {
+    .table{
+        width: 90%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+  }
+
+
+  
+  @media screen and (max-width: 650px) {
+   
+    
+    .deathsRes {
+        border-bottom: 5px  solid rgba(233, 0, 65, 1);
+    }
+
+    .casesRes {
+        border-bottom: 5px solid rgba(255, 113, 39, 1);
+    
+    }
+
+    .recoveredRes{
+        border-bottom: 5px  solid rgba(16, 188, 16, 1);
+    }
+
+    .activeRes {
+        border-bottom: 5px solid  rgba(24, 196, 211, 1);
+      
+      }
+
+    .criticalRes {
+        border-bottom: 5px solid rgba(125, 12, 157, 1);
+      }
+    
+      .casesPerOneMillionRes{
+        border-bottom: 5px solid rgba(255, 239, 55, 1);
+      }
+      
+      .deathsPerOneMillionRes{
+        border-bottom: 5px solid rgba(255, 92, 211, 1);
+      }
+      
+      .totalTestsRes{
+        border-bottom: 5px solid rgb(196, 143, 117);
+      }
+      
+      .testsPerOneMillionRes{
+        border-bottom: 5px solid rgba(90, 0, 39, 1);
+      }
+      
+    
+    
+    table {
+        border: 0;
+      }
+    
+
+      
+      table thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+      
+      table tr {
+        display: block;
+        margin-bottom: .625em;
+      }
+      
+      table td {
+        display: block;
+        font-size: 0.9em;
+
+      }
+      
+      table td::before {
+   
+        content: attr(data-label);
+        float: right;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+
+    
+      
+  }
+  
